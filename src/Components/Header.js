@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user && <button className='btn ' onClick={handleSignOut}>Log Out</button>
+                    user && <button className='btn btn-sm' onClick={handleSignOut}>Log Out</button>
                 }
             </div>
         </div>
